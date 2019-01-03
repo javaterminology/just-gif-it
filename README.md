@@ -32,3 +32,6 @@ https://www.baeldung.com/spring-boot-custom-auto-configuration
 using @ConditionalOn annotation :
 Spring 4 introduced conditional configuration.
 A single condition that must be matched in order for a component to be registered.
+
+spring-data-rest-hal-browser maven dependency:
+
