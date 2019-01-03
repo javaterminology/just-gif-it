@@ -7,8 +7,8 @@ Spring boot is not spring boot without auto configurations.
 
 @EnableAutoConfiguration - annotation enables configurations ..if you dont need those auto configurations exclude them using exclude property inside annotation with full qualified class names.
 
-@EnableAutoConfiguration(exclude=DataSourceAutoConfiguration.class,...)
-@SpringbootApplication(exclude=classnames with fully qualified names...,)
+@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class,...})
+@SpringbootApplication(exclude={classnames with fully qualified name,..,})
 
 
 we can exclude them using application.properties as well like below
