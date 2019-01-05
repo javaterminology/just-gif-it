@@ -7,5 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JustGifItAutoConfiguration {
 	public static void main(String[] args) {
 		SpringApplication.run(JustGifItAutoConfiguration.class, args);
+		////////////////
 	}
 }
